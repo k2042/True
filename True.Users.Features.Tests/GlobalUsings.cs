@@ -1,0 +1,10 @@
+global using System;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using Microsoft.VisualStudio.TestTools.UnitTesting;
+global using FakeItEasy;
+global using Shouldly;
+global using True.Users.Features.Commands;
+global using True.Users.Features.Handlers;
+global using True.Users.Infrastructure.Abstractions;
+global using True.Users.Infrastructure.Implementations;

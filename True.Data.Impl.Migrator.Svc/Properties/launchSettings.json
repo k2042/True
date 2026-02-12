@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "True.Data.Migrator": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

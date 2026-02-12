@@ -1,0 +1,12 @@
+global using System;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using System.Collections.Generic;
+global using System.Linq;
+global using Microsoft.VisualStudio.TestTools.UnitTesting;
+global using Shouldly;
+global using Microsoft.EntityFrameworkCore;
+global using True.Data.Model;
+global using True.Data.Model.Dbo;
+global using True.Finance.Infrastructure.Abstractions;
+global using True.Finance.Infrastructure.Implementations;

@@ -1,0 +1,23 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>b68caf7d-3d66-4438-bf6a-ed12f73e0956</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\True.Data.Impl.Migrator.Svc\True.Data.Impl.Migrator.Svc.csproj" />
+    <ProjectReference Include="..\True.Finance.Api\True.Finance.Api.csproj" />
+    <ProjectReference Include="..\True.Gateway.Api\True.Gateway.Api.csproj" />
+    <ProjectReference Include="..\True.Integration.Cbr\True.Integration.Cbr.csproj" />
+    <ProjectReference Include="..\True.Users.Api\True.Users.Api.csproj" />
+  </ItemGroup>
+
+</Project>
